@@ -323,6 +323,12 @@ a:focus {
 	margin: 0 0.75rem;
 }
 
+.en.ontario .content--c2 .logos > svg.foodbasic {
+	-webkit-transform: translateY(18px);
+	    -ms-transform: translateY(18px);
+	        transform: translateY(18px);
+}
+
 /* MOBILE */
 @media (max-width: 1024px) {
 	
@@ -445,6 +451,9 @@ a:focus {
 
 @media (max-width: 320px) {
 	
+	.en .content--c1 .sentence--5 {
+		margin-left: -10px;
+	}
 	.en.ontario .content--c1 .sentence--3 {
 		margin-left: -25px;
 	}
