@@ -205,6 +205,13 @@ a:focus {
 	width: 290px;
 }
 
+.en.ontario .content--c1 .sentence--4 {
+	width: 504px;
+	-webkit-transform: translateY(-10px);
+	    -ms-transform: translateY(-10px);
+	        transform: translateY(-10px);
+}
+
 .content--c1 .sentence--3 {
 	width: 298px;
 	height: 70px;
@@ -222,6 +229,20 @@ a:focus {
 	        transform: translateY(-150px);
 }
 
+.en.ontario .content--c1 .sentence--3 {
+	width: 525px;
+}
+
+.en.ontario .content--c1 .sentence--3b {
+	width: 340px;
+	height: 70px;
+	margin: auto;
+	text-align: left;
+	-webkit-transform: translateY(0);
+	    -ms-transform: translateY(0);
+	        transform: translateY(0);
+}
+
 .content--c1 .sentence--2 {
 	width: 253px;
 	height: 70px;
@@ -236,6 +257,10 @@ a:focus {
 	width: 258px;
 }
 
+.en.ontario .content--c1 .sentence--2 {
+	width: 410px;
+}
+
 .content--c1 .sentence--1 {
 	width: 325px;
 	height: 70px;
@@ -248,6 +273,10 @@ a:focus {
 
 .en .content--c1 .sentence--1 {
 	width: 302px;
+}
+
+.en.ontario .content--c1 .sentence--1 {
+	width: 264px;
 }
 
 .content--c1 .sentence_space12 {
@@ -337,11 +366,17 @@ a:focus {
 	.en .content--c1 .sentence--1 {
 		width: 176px;
 	}
+	.en.ontario .content--c1 .sentence--1 {
+		width: 156px;
+	}
 	.content--c1 .sentence--2 {
 		width: 160px;
 	}
 	.en .content--c1 .sentence--2 {
 		width: 150px;
+	}
+	.en.ontario .content--c1 .sentence--2 {
+    	width: 244px;
 	}
 	.content--c1 .sentence--3 {
 		width: 178px;
@@ -355,11 +390,23 @@ a:focus {
 		    -ms-transform: translateY(-150px);
 		        transform: translateY(-150px);
 	}
+	.en.ontario .content--c1 .sentence--3 {
+	    width: 312px;
+	}
+	.en.ontario .content--c1 .sentence--3b {
+    	width: 204px;
+    	-webkit-transform: translateY(-30px);
+		    -ms-transform: translateY(-30px);
+		        transform: translateY(-30px);
+	}
 	.content--c1 .sentence--4 {
 		width: 195px;
 	}
 	.en .content--c1 .sentence--4 {
 		width: 170px;
+	}
+	.en.ontario .content--c1 .sentence--4 {
+		width: 295px;
 	}
 	.content--c1 .sentence--5 {
 		width: 282px;
@@ -398,8 +445,11 @@ a:focus {
 
 @media (max-width: 320px) {
 	
-	.en .content--c1 .sentence--5 {
-		margin-left: -10px;
+	.en.ontario .content--c1 .sentence--3 {
+		margin-left: -25px;
+	}
+	.en.ontario .content--c1 .sentence--4 {
+		margin-left: -20px;
 	}
 	
 }
