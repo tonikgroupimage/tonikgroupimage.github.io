@@ -21,7 +21,9 @@
 			  // not-supported
 			  alert('Désolé, Votre navigateur ne supporte pas les animations HTML5.');
 			}
-			//document.documentElement.className = 'js';
+			if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
+				document.documentElement.classList.add('iphone');
+			}
 		</script>
 
 		<!-- rAF polyfill -->

@@ -206,10 +206,20 @@ a:focus {
 }
 
 .en.ontario .content--c1 .sentence--4 {
-	width: 504px;
+	width: 244px;
 	-webkit-transform: translateY(-10px);
 	    -ms-transform: translateY(-10px);
 	        transform: translateY(-10px);
+}
+
+.en.ontario .content--c1 .sentence--4b {
+	width: 398px;
+	height: 70px;
+	margin: auto;
+	text-align: left;
+	-webkit-transform: translateY(139px);
+	    -ms-transform: translateY(139px);
+	        transform: translateY(139px);
 }
 
 .content--c1 .sentence--3 {
@@ -360,6 +370,9 @@ a:focus {
 		height: 50%;
 		margin-left: 0;
 	}
+	.iphone .content--c1 > .sentence > svg {
+		margin: 0 -7px;
+	}
 	.content--c1 > .sentence > svg.sentence_space12 {
 		margin-left: 5px;
 	}
@@ -414,6 +427,9 @@ a:focus {
 	.en.ontario .content--c1 .sentence--4 {
 		width: 295px;
 	}
+	.en.ontario .content--c1 .sentence--4b {
+		width: 295px;
+	}
 	.content--c1 .sentence--5 {
 		width: 282px;
 	}
@@ -444,7 +460,7 @@ a:focus {
 		margin: 0 0.5rem 0.75rem 0.5rem;
 	}
 	.btn--refresh {
-		bottom: 1vh;
+		bottom: 14vh;
 	}
 
 }
