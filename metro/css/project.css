@@ -387,6 +387,9 @@ a:focus {
 	}
 	.en.ontario .content--c1 .sentence--1 {
 		width: 156px;
+		-webkit-transform: translateY(-350px);
+		    -ms-transform: translateY(-350px);
+		        transform: translateY(-350px);
 	}
 	.content--c1 .sentence--2 {
 		width: 160px;
@@ -396,6 +399,9 @@ a:focus {
 	}
 	.en.ontario .content--c1 .sentence--2 {
     	width: 244px;
+    	-webkit-transform: translateY(-280px);
+		    -ms-transform: translateY(-280px);
+		        transform: translateY(-280px);
 	}
 	.content--c1 .sentence--3 {
 		width: 178px;
@@ -411,12 +417,15 @@ a:focus {
 	}
 	.en.ontario .content--c1 .sentence--3 {
 	    width: 312px;
+	    -webkit-transform: translateY(-210px);
+		    -ms-transform: translateY(-210px);
+		        transform: translateY(-210px);
 	}
 	.en.ontario .content--c1 .sentence--3b {
     	width: 204px;
-    	-webkit-transform: translateY(-30px);
-		    -ms-transform: translateY(-30px);
-		        transform: translateY(-30px);
+    	-webkit-transform: translateY(-94px);
+		    -ms-transform: translateY(-94px);
+		        transform: translateY(-94px);
 	}
 	.content--c1 .sentence--4 {
 		width: 195px;
@@ -425,10 +434,16 @@ a:focus {
 		width: 170px;
 	}
 	.en.ontario .content--c1 .sentence--4 {
-		width: 295px;
+		width: 152px;
+		-webkit-transform: translateY(-70px);
+		    -ms-transform: translateY(-70px);
+		        transform: translateY(-70px);
 	}
 	.en.ontario .content--c1 .sentence--4b {
-		width: 295px;
+		width: 230px;
+		-webkit-transform: translateY(46px);
+		    -ms-transform: translateY(46px);
+		        transform: translateY(46px);
 	}
 	.content--c1 .sentence--5 {
 		width: 282px;
@@ -471,10 +486,8 @@ a:focus {
 		margin-left: -10px;
 	}
 	.en.ontario .content--c1 .sentence--3 {
-		margin-left: -25px;
+		margin-left: -26px;
 	}
-	.en.ontario .content--c1 .sentence--4 {
-		margin-left: -20px;
-	}
+	
 	
 }
