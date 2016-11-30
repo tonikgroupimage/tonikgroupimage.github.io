@@ -124,7 +124,7 @@ a:focus {
 
 .btn--down {
 	position: absolute;
-	bottom: 20vh;
+	bottom: 15vh;
 	left: 50%;
 	-webkit-transform: translateX(-50%);
 	    -ms-transform: translateX(-50%);
@@ -480,6 +480,9 @@ a:focus {
 		max-width: 40%;
 		height: auto;
 		margin: 0 0.5rem 0.75rem 0.5rem;
+	}
+	.btn--down {
+		bottom: 20vh;
 	}
 	.btn--refresh {
 		bottom: 14vh;
