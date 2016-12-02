@@ -333,10 +333,10 @@ a:focus {
 	margin: 0 0.75rem;
 }
 
-.en.ontario .content--c2 .logos > svg.foodbasic {
-	-webkit-transform: translateY(18px);
-	    -ms-transform: translateY(18px);
-	        transform: translateY(18px);
+.en.ontario .content--c2 .logos > .logos--foodbasic {
+	-webkit-transform: translateY(26px);
+	    -ms-transform: translateY(26px);
+	        transform: translateY(26px);
 }
 
 /* MOBILE */
@@ -349,7 +349,8 @@ a:focus {
 	.content--c2 {
 		padding: 10vh 10vw;
 	}
-	.content--c2 .logos > svg {
+	.content--c2 .logos > svg,
+	.content--c2 .logos > img {
 		margin: 0 0.5rem 0.75rem 0.5rem;
 	}
 	
@@ -476,7 +477,8 @@ a:focus {
 	.content--c2 .logos {
 		margin-top: 20px;
 	}
-	.content--c2 .logos > svg {
+	.content--c2 .logos > svg,
+	.content--c2 .logos > img {
 		max-width: 40%;
 		height: auto;
 		margin: 0 0.5rem 0.75rem 0.5rem;
